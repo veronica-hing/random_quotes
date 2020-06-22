@@ -30,3 +30,9 @@
   padding: 10px 70px;
   font-style: italic;
 }
+
+@media(max-width: 768px){
+  #main{
+    width: 100vmax;
+  }
+}
