@@ -85,7 +85,9 @@ function quotely(){
     { quote: "Let the waters settle and you will see the moon and the stars mirrored in your own being",
       author: "Rumi"},
     { quote: "If you look too closely at the form, you'll miss the essence",
-      author: "Rumi"}
+      author: "Rumi"},
+    { quote: "Do thing and you will have the power",
+      author: "Ralph Waldo Emerson"},
   ]//end of allQuotes array
   let nummu = Math.floor(Math.random()*allQuotes.length);
   document.querySelector(".quote > span").innerHTML = "\""+ allQuotes[nummu].quote + "\"";
